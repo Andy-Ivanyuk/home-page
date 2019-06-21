@@ -1,0 +1,112 @@
+* {
+	font-family: 'Roboto', sans-serif;
+		-webkit-touch-callout: none; /* iOS Safari */
+		  -webkit-user-select: none; /* Safari */
+		   -khtml-user-select: none; /* Konqueror HTML */
+			 -moz-user-select: none; /* Firefox */
+			  -ms-user-select: none; /* Internet Explorer/Edge */
+				  user-select: none; /* Non-prefixed version, currently
+										supported by Chrome and Opera */
+}
+
+.callendar.icon {
+	display: inline-block;
+	border: 25px solid #A1887F;
+	width: 200px;
+	height: 290px;
+	box-shadow: 0 25px 50px #80808080;
+	background-color: white;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 15px;
+}
+.callendar.icon:after {
+	display: inline-block;
+	content: "";
+	margin-top: -28px;
+	box-shadow: 0 2px 5px #80808080;
+	background-color: #B2B2B2;
+	width: 100px;
+	height: 40px;
+}
+.callendar.icon:before {
+	position: absolute;
+	display: inline-block;
+	content: "";
+	margin-top: 4px;
+	background-color: #979797;
+	width: 100px;
+	height: 8px;
+}
+#numberOfDays {
+	font-size: 70px;
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 50px;
+}
+.text {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-size: 70px;
+	letter-spacing: 3px;
+	margin-top: 60vh;
+}
+.button {
+	display: inline-block;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 80vh;
+	width: 260px;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background-color: #D0634C;
+	line-height: 47px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.2s;
+	box-shadow: 0 2px 5px #80808080;
+}
+.button:hover {
+	background-color: #AF634C;
+	transition: all 0.2s;
+	box-shadow: 0 10px 20px #80808080;
+}
+.button:active {
+	background-color: #9F634C;
+	transition: all 0.2s;
+	box-shadow: 0 0 0 #80808080;
+}
+
+@media screen and (max-height: 600px) {
+	.callendar.icon {
+		height: 240px;
+	}
+	.text {
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.text {
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.text {
+		font-size: 35px;
+	}
+}

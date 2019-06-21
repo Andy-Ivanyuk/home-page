@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>[class="cbalink"]{display:none;}</style>
     <link rel="stylesheet" href=".home-src/index.css" />
     <title>My sweet home!</title>
   </head>
@@ -10,13 +11,18 @@
     <h1 id="title">Welcome!</h1>
     <div class="content">
       <div class="links">
-        <a href="google.com">Awf a fiuabf</a>
-        <a href="google.com">Awf a fiuabf</a>
-        <a href="google.com">Awf a fiuabf</a>
-        <a href="google.com">Awf a fiuabf</a>
-        <a href="google.com">Awf a fiuabf</a>
+        <a href="./daysWithoutIncident/index.html">Days without incident</a>
+        <a href="./canvasRacing/index.html">Racing thing</a>
       </div>
     </div>
-    <!-- <div class="main-menu"></div> -->
   </body>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+  <script >
+    $(document).ready(() => {
+      $('div[style*="text-align:center;font-size:11px;font-family:arial;background-color:black;color:white"]').hide()
+    })
+  </script>
 </html>
