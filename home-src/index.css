@@ -127,3 +127,9 @@ body {
   position: absolute;
   height: 10px;
 }
+
+@media (max-width: 1200px) {
+  #title::before, #title::after {
+    display: none;
+  }
+}
