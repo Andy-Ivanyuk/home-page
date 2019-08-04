@@ -27,8 +27,10 @@ body {
 #title::before {
   z-index: -1;
   background-color: black;
-  margin-left: -20px;
-  width: 800px;
+  margin-left: -405px;
+  width: 810px;
+  left: 50%;
+  margin-top: -1px;
   height: 12px;
 }
 
