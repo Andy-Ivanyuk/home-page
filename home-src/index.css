@@ -68,10 +68,11 @@ body {
   color: white;
 }
 .content {
+  left: 0;
   z-index: -2;
-  margin: 0 10%;
   position: absolute;
   width: 80%;
+  margin: 0 10%;
 }
 
 #title::after {
